@@ -111,7 +111,3 @@ flutter test
 
 ---
 
-## License
-
-This project does not include a license file by default. Consider adding an open source license (MIT, Apache-2.0, etc.) if you want to allow others to use your code.
-
