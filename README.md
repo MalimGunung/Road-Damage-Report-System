@@ -125,9 +125,7 @@ This project does not include a license file by default. Consider adding an open
 
 ---
 
-## 📫 Contact
 
-If you want help setting up Firebase, configuring secrets, or adding CI/workflows, open an issue or ask here and I can walk you through it.
 
 ---
 
