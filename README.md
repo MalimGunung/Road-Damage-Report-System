@@ -1,4 +1,4 @@
-# Road Damage Report System 🚧🛣️
+# Road Damage Report System 
 
 **Road Damage Report System** is a Flutter mobile app for reporting and notifying users about road damage (potholes, cracks, etc.). The project includes client-side Flutter code and server-side notification helper logic (FCM via a Google service account).
 
@@ -111,7 +111,7 @@ flutter test
 
 ---
 
-## 📄 License
+## License
 
 This project does not include a license file by default. Consider adding an open source license (MIT, Apache-2.0, etc.) if you want to allow others to use your code.
 
