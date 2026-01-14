@@ -8,7 +8,6 @@
 
 - **Platform:** Flutter (cross-platform mobile)
 - **Purpose:** Let users submit road damage reports and broadcast notifications to subscribed users via Firebase Cloud Messaging (FCM).
-- **Repository layout:** top-level project folder is `flutter_661` (app code lives in this folder).
 
 ---
 
