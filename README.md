@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 - **Platform:** Flutter (cross-platform mobile)
 - **Purpose:** Let users submit road damage reports and broadcast notifications to subscribed users via Firebase Cloud Messaging (FCM).
@@ -12,7 +12,7 @@
 
 ---
 
-## 🔧 Tech Stack & Environment
+## Tech Stack & Environment
 
 - Flutter (stable channel) and Dart
 - Firebase services: FCM (Cloud Messaging) — optional: Firestore/Realtime Database for reports
@@ -30,7 +30,7 @@ gh --version
 
 ---
 
-## ⚙️ Setup & Quick Start
+## Setup & Quick Start
 
 1. Clone the repository and open the `flutter_661` folder:
 
@@ -74,7 +74,7 @@ flutter run -d <device>
 
 ---
 
-## 🔒 Security & Secrets
+## Security & Secrets
 
 **Important:** This repo uses push protection and secret scanning. Do not commit service account keys, `google-services.json`, or other credentials to the repository.
 
@@ -91,14 +91,14 @@ Note: I already removed an embedded service-account secret from `lib/noti.dart` 
 
 ---
 
-## 📡 Notifications & Server Setup
+## Notifications & Server Setup
 
 - Client notifications are handled by `lib/noti.dart`. The code previously contained an inlined service account — this was removed for security.
 - Use a local `service_account.json` or GitHub Secrets + a CI/Cloud Function to obtain server tokens and send FCM messages.
 
 ---
 
-## ✅ Development & CI suggestions
+## Development & CI suggestions
 
 - Run static analysis and tests locally:
 ```bash
@@ -111,22 +111,7 @@ flutter test
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome. Please:
-1. Fork the repo and create a feature branch
-2. Open a pull request with a clear description and tests if possible
-
----
-
 ## 📄 License
 
 This project does not include a license file by default. Consider adding an open source license (MIT, Apache-2.0, etc.) if you want to allow others to use your code.
 
----
-
-
-
----
-
-Thank you for using the Road Damage Report System — let's make roads safer! 🚦
